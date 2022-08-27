@@ -6,6 +6,6 @@ describe("test de funciones", () => {
   });
   test("1 - 1 =  0", () => {
     const resultado = funciones.restar(1, 1);
-    expect(resultado).toEqual(4);
+    expect(resultado).toEqual(0);
   });
 });
